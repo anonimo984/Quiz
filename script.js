@@ -151,7 +151,7 @@ function showResult() {
     quiz_box.classList.remove("activeQuiz"); // Ocultar a caixa de quiz
     result_box.classList.add("activeResult"); // Mostrar a caixa de resultados
     const scoreText = result_box.querySelector(".score_text");
-    let porcentagem = (userScore/questions.length)*100
+    let porcentagem = ((userScore / questions.length) * 100).toFixed(2);
     if (userScore > 3) { // Se o usuário acertou mais de 3
         // Criar uma nova tag span e passar o número da pontuação do usuário e o número total de perguntas
         let scoreTag = '<span>e meus parabéns 🎉, você acertou ' + userScore + ' de um total de ' + questions.length +  '. Um total de '+ porcentagem + '% de acerto.'+ '</span>';
