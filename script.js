@@ -151,15 +151,16 @@ function showResult() {
     quiz_box.classList.remove("activeQuiz"); // Ocultar a caixa de quiz
     result_box.classList.add("activeResult"); // Mostrar a caixa de resultados
     const scoreText = result_box.querySelector(".score_text");
+    let porcentagem = (userScore/questions.length)*100
     if (userScore > 3) { // Se o usuário acertou mais de 3
         // Criar uma nova tag span e passar o número da pontuação do usuário e o número total de perguntas
-        let scoreTag = '<span>e meus parabéns 🎉, você acertou ' + userScore + ' de um total de ' + questions.length + '</span>';
+        let scoreTag = '<span>e meus parabéns 🎉, você acertou ' + userScore + ' de um total de ' + questions.length +  '. Um total de '+ porcentagem + '% de acerto.'+ '</span>';
         scoreText.innerHTML = scoreTag; // Adicionar a nova tag span dentro de scoreText
     } else if (userScore > 1) { // Se o usuário acertou mais de 1
-        let scoreTag = '<span>e olha que legal 😎, você acertou ' + userScore + ' de um total de ' + questions.length + '</span>';
+        let scoreTag = '<span>e olha que legal 😎, você acertou ' + userScore + ' de um total de ' + questions.length + '. Um total de '+ porcentagem + '% de acerto.'+ '</span>';
         scoreText.innerHTML = scoreTag;
     } else { // Se o usuário acertou menos de 1
-        let scoreTag = '<span>mas infelizmente 😐, você acertou apenas ' + userScore + ' de um total de ' + questions.length + '</span>';
+        let scoreTag = '<span>mas infelizmente 😐, você acertou apenas ' + userScore + ' de um total de ' + questions.length +  '. Um total de '+ porcentagem + '% de acerto.'+ '</span>';
         scoreText.innerHTML = scoreTag;
     }
 }
