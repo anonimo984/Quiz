@@ -10,6 +10,15 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
+// Função para embaralhar o array de perguntas
+function shuffleQuestions(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 // Se o botão de iniciar o quiz for clicado
 start_btn.onclick = () => {
     info_box.classList.add("activeInfo"); // Mostrar a caixa de informações
@@ -73,6 +82,7 @@ next_btn.onclick = () => {
     if (que_count < questions.length - 1) { // Se o número da pergunta for menor que o comprimento total das perguntas
         que_count++; // Incrementar o número da pergunta
         que_numb++; // Incrementar o número da pergunta
+        questions = shuffleQuestions(questions); // Embaralhar as questões
         showQuetions(que_count); // Chamando a função showQuestions
         queCounter(que_numb); // Passando que_numb para queCounter
         clearInterval(counter); // Limpar o contador
