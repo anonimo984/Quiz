@@ -131,7 +131,7 @@ body {
 
 .quiz_box {
     width: 90%;
-    max-width: 550px;
+    max-width: 90%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
