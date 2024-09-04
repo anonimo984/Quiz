@@ -12,15 +12,28 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 // Função para embaralhar o array de perguntas
 function shuffleQuestions(array) {
+    console.log(array)
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
+    console.log(array)
     return array;
+    
 }
+
+function removeDuplicates(questions) {
+    const uniqueQuestions = new Map();
+    questions.forEach(q => {
+        uniqueQuestions.set(q.question, q);
+    });
+    return Array.from(uniqueQuestions.values());
+}
+
 
 // Se o botão de iniciar o quiz for clicado
 start_btn.onclick = () => {
+    questions = shuffleQuestions(removeDuplicates(questions)); // Embaralhar as questões
     info_box.classList.add("activeInfo"); // Mostrar a caixa de informações
 }
 
@@ -82,7 +95,6 @@ next_btn.onclick = () => {
     if (que_count < questions.length - 1) { // Se o número da pergunta for menor que o comprimento total das perguntas
         que_count++; // Incrementar o número da pergunta
         que_numb++; // Incrementar o número da pergunta
-        questions = shuffleQuestions(questions); // Embaralhar as questões
         showQuetions(que_count); // Chamando a função showQuestions
         queCounter(que_numb); // Passando que_numb para queCounter
         clearInterval(counter); // Limpar o contador
@@ -202,30 +214,6 @@ function startTimer(time) {
             next_btn.classList.add("show"); // Mostrar o botão de próximo
         }
     }
-}
-
-// Função para iniciar a linha do tempo
-function startTimerLine() {
-  const totalWidth = 549; // Largura total da linha de tempo
-  const duration = 6000; // Duração total em segundos
-  let startTime = performance.now(); // Marcar o tempo de início
-  let endTime = startTime + (duration * 1000); // Tempo final
-
-  function updateLine() {
-      let now = performance.now(); // Tempo atual
-      let elapsed = now - startTime; // Tempo decorrido
-      let progress = Math.min(elapsed / (duration * 10), 1); // Progresso como fração
-
-      time_line.style.width = (progress * totalWidth) + "px"; // Atualizar largura da linha
-
-      if (now < endTime) {
-          requestAnimationFrame(updateLine); // Continuar atualizando
-      } else {
-          time_line.style.width = totalWidth + "px"; // Garantir que a linha esteja totalmente preenchida
-      }
-  }
-
-  updateLine(); // Iniciar a atualização da linha
 }
 
 function queCounter(index) {
