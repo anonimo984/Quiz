@@ -658,5 +658,667 @@ let questions = [
       "C) Aumentar a largura de banda",
       "D) Melhorar a segurança"
     ]
+  },
+  {
+    "numb": 61,
+    "question": "Qual dos fatores abaixo descreve uma ameaça externa para sistemas distribuídos?",
+    "answer": "D) Ataque de denial of service",
+    "options": [
+      "A) Relógios não sincronizados",
+      "B) Falhas de hardware",
+      "C) Atualização de dados conflitantes",
+      "D) Ataque de denial of service"
+    ]
+  },
+  {
+    "numb": 62,
+    "question": "Qual das opções abaixo é uma função de um modelo de arquitetura em sistemas distribuídos?",
+    "answer": "B) Simplificar as funções dos componentes individuais",
+    "options": [
+      "A) Gerenciamento de usuários",
+      "B) Simplificar as funções dos componentes individuais",
+      "C) Criação de drivers de hardware",
+      "D) Processamento paralelo de dados"
+    ]
+  },
+  {
+    "numb": 63,
+    "question": "Qual é o principal objetivo de classificar processos como servidores, clientes ou peers?",
+    "answer": "C) Definir a responsabilidade de cada processo",
+    "options": [
+      "A) Determinar o tipo de rede utilizado",
+      "B) Simplificar a camada de hardware",
+      "C) Definir a responsabilidade de cada processo",
+      "D) Monitorar o uso de memória"
+    ]
+  },
+  {
+    "numb": 64,
+    "question": "O que caracteriza um processo servidor em um sistema distribuído?",
+    "answer": "A) Aceita requisições de outros processos",
+    "options": [
+      "A) Aceita requisições de outros processos",
+      "B) Requisita dados de outros servidores",
+      "C) Executa tarefas de rede local",
+      "D) Fornece armazenamento em cache"
+    ]
+  },
+  {
+    "numb": 65,
+    "question": "Qual dos seguintes é um exemplo de middleware?",
+    "answer": "C) Java RMI",
+    "options": [
+      "A) TCP/IP",
+      "B) Linux Kernel",
+      "C) Java RMI",
+      "D) Windows Server"
+    ]
+  },
+  {
+    "numb": 66,
+    "question": "O middleware pode ser descrito como uma camada que:",
+    "answer": "B) Facilita a heterogeneidade e suporte à comunicação",
+    "options": [
+      "A) Executa a comunicação entre hardware e software",
+      "B) Facilita a heterogeneidade e suporte à comunicação",
+      "C) Gerencia a alocação de memória",
+      "D) Estabelece conexões diretas entre clientes e servidores"
+    ]
+  },
+  {
+    "numb": 67,
+    "question": "Qual das seguintes tecnologias pode ser usada para comunicação em grupo em sistemas distribuídos?",
+    "answer": "C) Comunicação entre grupos de processos",
+    "options": [
+      "A) RPC",
+      "B) Java RMI",
+      "C) Comunicação entre grupos de processos",
+      "D) HTTP"
+    ]
+  },
+  {
+    "numb": 68,
+    "question": "Qual o objetivo principal de um servidor proxy?",
+    "answer": "C) Aumentar a disponibilidade e o desempenho do serviço",
+    "options": [
+      "A) Aumentar a carga na rede",
+      "B) Reduzir o desempenho do servidor",
+      "C) Aumentar a disponibilidade e o desempenho do serviço",
+      "D) Facilitar o armazenamento de dados"
+    ]
+  },
+  {
+    "numb": 69,
+    "question": "Em um modelo cliente-servidor, qual é o tipo de protocolo mais utilizado?",
+    "answer": "A) Solicitação/Resposta sem conexão",
+    "options": [
+      "A) Solicitação/Resposta sem conexão",
+      "B) Conexão persistente",
+      "C) Mensagens multicast",
+      "D) Transmissão ponto-a-ponto"
+    ]
+  },
+  {
+    "numb": 70,
+    "question": "Qual das opções abaixo é uma vantagem dos processos peer em relação à arquitetura cliente-servidor?",
+    "answer": "B) Colaboração direta entre os usuários",
+    "options": [
+      "A) Redução no número de servidores",
+      "B) Colaboração direta entre os usuários",
+      "C) Controle centralizado de processos",
+      "D) Menor dependência da rede"
+    ]
+  },
+  {
+    "numb": 71,
+    "question": "Em um sistema distribuído, o que define uma falha de omissão?",
+    "answer": "A) O processo falha ao executar uma ação esperada",
+    "options": [
+      "A) O processo falha ao executar uma ação esperada",
+      "B) O processo falha em reiniciar corretamente",
+      "C) O sistema operacional falha em alocar memória",
+      "D) A rede falha em enviar dados rapidamente"
+    ]
+  },
+  {
+    "numb": 72,
+    "question": "Qual é o termo utilizado para descrever falhas em que qualquer tipo de erro pode ocorrer?",
+    "answer": "C) Falhas arbitrárias",
+    "options": [
+      "A) Falhas temporárias",
+      "B) Falhas de omissão",
+      "C) Falhas arbitrárias",
+      "D) Falhas catastróficas"
+    ]
+  },
+  {
+    "numb": 73,
+    "question": "Qual das seguintes características de desempenho define o tempo que o primeiro bit de uma mensagem leva para chegar ao destino?",
+    "answer": "A) Latência",
+    "options": [
+      "A) Latência",
+      "B) Jitter",
+      "C) Largura de banda",
+      "D) Taxa de erro"
+    ]
+  },
+  {
+    "numb": 74,
+    "question": "Qual característica do desempenho de comunicação é crítica para dados multimídia?",
+    "answer": "A) Latência",
+    "options": [
+      "A) Latência",
+      "B) Jitter",
+      "C) Largura de banda",
+      "D) Tempo de resposta"
+    ]
+  },
+  {
+    "numb": 75,
+    "question": "O que descreve um sistema distribuído assíncrono?",
+    "answer": "C) Não há limites de tempo definidos para execução e transmissão",
+    "options": [
+      "A) Todas as operações têm limites de tempo bem definidos",
+      "B) Processos executam em intervalos regulares",
+      "C) Não há limites de tempo definidos para execução e transmissão",
+      "D) Todas as mensagens são transmitidas simultaneamente"
+    ]
+  },
+  {
+    "numb": 76,
+    "question": "Em um sistema distribuído, qual a função dos relógios de computador?",
+    "answer": "B) Definir a ordem de eventos no tempo",
+    "options": [
+      "A) Sincronizar mensagens entre processos",
+      "B) Definir a ordem de eventos no tempo",
+      "C) Identificar falhas de hardware",
+      "D) Definir limites de execução para processos"
+    ]
+  },
+  {
+    "numb": 77,
+    "question": "No modelo cliente-servidor, qual é o papel do cliente?",
+    "answer": "B) Enviar requisições para os servidores",
+    "options": [
+      "A) Processar todas as requisições internamente",
+      "B) Enviar requisições para os servidores",
+      "C) Atuar como backup para o servidor",
+      "D) Sincronizar dados entre servidores"
+    ]
+  },
+  {
+    "numb": 78,
+    "question": "O que caracteriza uma falha de temporização em sistemas distribuídos síncronos?",
+    "answer": "B) Falha em manter limites de tempo estabelecidos",
+    "options": [
+      "A) Falha em sincronizar relógios",
+      "B) Falha em manter limites de tempo estabelecidos",
+      "C) Falha em alocar memória no tempo correto",
+      "D) Falha em reiniciar processos"
+    ]
+  },
+  {
+    "numb": 79,
+    "question": "Qual o principal objetivo da replicação de dados em sistemas distribuídos?",
+    "answer": "C) Aumentar a disponibilidade e a tolerância a falhas",
+    "options": [
+      "A) Aumentar o uso da rede",
+      "B) Aumentar a segurança dos dados",
+      "C) Aumentar a disponibilidade e a tolerância a falhas",
+      "D) Reduzir o número de processos executados"
+    ]
+  },
+  {
+    "numb": 80,
+    "question": "O que caracteriza um sistema peer-to-peer?",
+    "answer": "C) Colaboração entre processos sem distinção entre cliente e servidor",
+    "options": [
+      "A) Um único servidor para múltiplos clientes",
+      "B) Processos que operam em uma única máquina",
+      "C) Colaboração entre processos sem distinção entre cliente e servidor",
+      "D) Conexão somente em modo offline"
+    ]
+  },
+  {
+    "numb": 81,
+    "question": "Qual é uma vantagem da arquitetura client-server em comparação com a peer-to-peer?",
+    "answer": "B) Melhor gerenciamento e controle centralizado",
+    "options": [
+      "A) Menor latência",
+      "B) Melhor gerenciamento e controle centralizado",
+      "C) Maior segurança",
+      "D) Melhor desempenho geral"
+    ]
+  },
+  {
+    "numb": 82,
+    "question": "O que a tolerância a falhas garante em um sistema distribuído?",
+    "answer": "C) Funcionamento contínuo mesmo na presença de falhas",
+    "options": [
+      "A) Aumento da carga de rede",
+      "B) Aumento da complexidade do sistema",
+      "C) Funcionamento contínuo mesmo na presença de falhas",
+      "D) Necessidade de mais hardware"
+    ]
+  },
+  {
+    "numb": 83,
+    "question": "Qual é uma forma comum de implementar a segurança em sistemas distribuídos?",
+    "answer": "A) Criptografia de dados em trânsito",
+    "options": [
+      "A) Criptografia de dados em trânsito",
+      "B) Backup de dados em tempo real",
+      "C) Aumento da largura de banda",
+      "D) Replicação de processos"
+    ]
+  },
+  {
+    "numb": 84,
+    "question": "Qual é o papel da consistência em sistemas distribuídos?",
+    "answer": "B) Garantir que todos os nós tenham a mesma visão dos dados",
+    "options": [
+      "A) Aumentar a velocidade de acesso aos dados",
+      "B) Garantir que todos os nós tenham a mesma visão dos dados",
+      "C) Melhorar a performance de leitura",
+      "D) Reduzir a complexidade do sistema"
+    ]
+  },
+  {
+    "numb": 85,
+    "question": "O que é um sistema de gerenciamento de informações distribuídas?",
+    "answer": "C) Um sistema que gerencia dados em múltiplos locais",
+    "options": [
+      "A) Um sistema que armazena dados em um único servidor",
+      "B) Um sistema que opera apenas offline",
+      "C) Um sistema que gerencia dados em múltiplos locais",
+      "D) Um sistema que só utiliza uma rede local"
+    ]
+  },
+  {
+    "numb": 86,
+    "question": "Qual dos seguintes protocolos é frequentemente usado em aplicações de transferência de arquivos?",
+    "answer": "A) FTP",
+    "options": [
+      "A) FTP",
+      "B) HTTP",
+      "C) SMTP",
+      "D) SNMP"
+    ]
+  },
+  {
+    "numb": 87,
+    "question": "Qual é a principal preocupação de segurança em sistemas distribuídos?",
+    "answer": "B) Proteger dados e comunicações contra acesso não autorizado",
+    "options": [
+      "A) Aumentar a largura de banda da rede",
+      "B) Proteger dados e comunicações contra acesso não autorizado",
+      "C) Reduzir a complexidade do software",
+      "D) Minimizar o tempo de resposta"
+    ]
+  },
+  {
+    "numb": 88,
+    "question": "Qual é uma desvantagem dos sistemas de arquivos distribuídos?",
+    "answer": "C) Complexidade na manutenção e no gerenciamento",
+    "options": [
+      "A) Maior velocidade de acesso",
+      "B) Baixo custo",
+      "C) Complexidade na manutenção e no gerenciamento",
+      "D) Facilidade de replicação"
+    ]
+  },
+  {
+    "numb": 89,
+    "question": "O que define a largura de banda de um sistema distribuído?",
+    "answer": "A) A quantidade de dados que podem ser transmitidos em um determinado tempo",
+    "options": [
+      "A) A quantidade de dados que podem ser transmitidos em um determinado tempo",
+      "B) O número de conexões simultâneas",
+      "C) A quantidade de armazenamento disponível",
+      "D) O tipo de dados transmitidos"
+    ]
+  },
+  {
+    "numb": 90,
+    "question": "Qual dos seguintes é um desafio ao implementar sistemas de replicação?",
+    "answer": "C) Sincronização de dados entre cópias",
+    "options": [
+      "A) Aumento da largura de banda",
+      "B) Redução da segurança",
+      "C) Sincronização de dados entre cópias",
+      "D) Aumento da velocidade de acesso"
+    ]
+  },
+  {
+    "numb": 91,
+    "question": "Qual é um exemplo de um sistema distribuído baseado em nuvem?",
+    "answer": "B) Amazon Web Services",
+    "options": [
+      "A) Microsoft Office",
+      "B) Amazon Web Services",
+      "C) Notepad",
+      "D) Windows XP"
+    ]
+  },
+  {
+    "numb": 92,
+    "question": "Qual é o papel de um balanceador de carga em sistemas distribuídos?",
+    "answer": "C) Distribuir as requisições de entrada entre múltiplos servidores",
+    "options": [
+      "A) Aumentar a complexidade da rede",
+      "B) Armazenar dados de backup",
+      "C) Distribuir as requisições de entrada entre múltiplos servidores",
+      "D) Monitorar o desempenho de usuários"
+    ]
+  },
+  {
+    "numb": 93,
+    "question": "Qual das opções abaixo descreve um serviço em nuvem?",
+    "answer": "A) Acesso a recursos computacionais pela internet",
+    "options": [
+      "A) Acesso a recursos computacionais pela internet",
+      "B) Armazenamento em disco rígido local",
+      "C) Conexão a uma rede local",
+      "D) Programas instalados diretamente no computador"
+    ]
+  },
+  {
+    "numb": 94,
+    "question": "Qual é a função do armazenamento em nuvem?",
+    "answer": "B) Permitir o acesso e gerenciamento de dados através da internet",
+    "options": [
+      "A) Armazenar dados apenas localmente",
+      "B) Permitir o acesso e gerenciamento de dados através da internet",
+      "C) Proteger os dados contra falhas de hardware",
+      "D) Executar processos de forma offline"
+    ]
+  },
+  {
+    "numb": 95,
+    "question": "Qual é um benefício de utilizar contêineres em sistemas distribuídos?",
+    "answer": "C) Portabilidade entre diferentes ambientes",
+    "options": [
+      "A) Aumento do tempo de inicialização",
+      "B) Complexidade na implementação",
+      "C) Portabilidade entre diferentes ambientes",
+      "D) Dependência de hardware específico"
+    ]
+  },
+  {
+    "numb": 96,
+    "question": "Qual é o principal desafio na escalabilidade de sistemas distribuídos?",
+    "answer": "B) Manter a consistência de dados enquanto se aumenta a carga",
+    "options": [
+      "A) Aumentar a largura de banda",
+      "B) Manter a consistência de dados enquanto se aumenta a carga",
+      "C) Reduzir o número de processos",
+      "D) Simplificar a arquitetura"
+    ]
+  },
+  {
+    "numb": 97,
+    "question": "Qual é a função de um serviço de registro em um sistema distribuído?",
+    "answer": "C) Localizar recursos e serviços disponíveis",
+    "options": [
+      "A) Proteger dados de acesso não autorizado",
+      "B) Armazenar dados permanentemente",
+      "C) Localizar recursos e serviços disponíveis",
+      "D) Realizar backup de dados"
+    ]
+  },
+  {
+    "numb": 98,
+    "question": "Qual é um exemplo de arquitetura em microserviços?",
+    "answer": "B) Serviços independentes que se comunicam via APIs",
+    "options": [
+      "A) Uma única aplicação monolítica",
+      "B) Serviços independentes que se comunicam via APIs",
+      "C) Um sistema de arquivos distribuídos",
+      "D) Um servidor web tradicional"
+    ]
+  },
+  {
+    "numb": 99,
+    "question": "O que define a natureza de um sistema distribuído?",
+    "answer": "A) A interconexão de múltiplos nós que colaboram em tarefas",
+    "options": [
+      "A) A interconexão de múltiplos nós que colaboram em tarefas",
+      "B) Um único ponto de falha",
+      "C) A necessidade de armazenamento local",
+      "D) A execução de processos em um único servidor"
+    ]
+  },
+  {
+    "numb": 100,
+    "question": "Qual é o principal fator que afeta o desempenho em sistemas distribuídos?",
+    "answer": "B) Latência da rede",
+    "options": [
+      "A) Capacidade de armazenamento",
+      "B) Latência da rede",
+      "C) Número de servidores",
+      "D) Tipo de software utilizado"
+    ]
+  },
+  {
+    "numb": 101,
+    "question": "O que é um nó em um sistema distribuído?",
+    "answer": "C) Um componente que participa da rede",
+    "options": [
+      "A) Um tipo de servidor único",
+      "B) Um dispositivo de armazenamento",
+      "C) Um componente que participa da rede",
+      "D) Um cliente que solicita serviços"
+    ]
+  },
+  {
+    "numb": 102,
+    "question": "Qual é a importância de manter a consistência em sistemas distribuídos?",
+    "answer": "A) Para garantir que todos os nós têm as mesmas informações",
+    "options": [
+      "A) Para garantir que todos os nós têm as mesmas informações",
+      "B) Para aumentar a velocidade de processamento",
+      "C) Para reduzir o consumo de energia",
+      "D) Para simplificar o design do sistema"
+    ]
+  },
+  {
+    "numb": 103,
+    "question": "Qual é um exemplo de um sistema distribuído de armazenamento?",
+    "answer": "A) Google Drive",
+    "options": [
+      "A) Google Drive",
+      "B) Microsoft Word",
+      "C) Adobe Photoshop",
+      "D) Notepad"
+    ]
+  },
+  {
+    "numb": 104,
+    "question": "O que é escalabilidade em sistemas distribuídos?",
+    "answer": "B) A capacidade de aumentar recursos conforme necessário",
+    "options": [
+      "A) Aumentar a complexidade do sistema",
+      "B) A capacidade de aumentar recursos conforme necessário",
+      "C) Reduzir o número de usuários",
+      "D) Aumentar a latência de rede"
+    ]
+  },
+  {
+    "numb": 105,
+    "question": "Qual das opções abaixo é uma técnica de replicação em sistemas distribuídos?",
+    "answer": "A) Replicação em múltiplas regiões geográficas",
+    "options": [
+      "A) Replicação em múltiplas regiões geográficas",
+      "B) Armazenamento em um único local",
+      "C) Execução de processos em um único servidor",
+      "D) Backup em fita magnética"
+    ]
+  },
+   {
+    "numb": 106,
+    "question": "Qual é uma característica dos sistemas distribuídos?",
+    "answer": "B) A capacidade de operar em múltiplos locais",
+    "options": [
+      "A) Operar em um único local",
+      "B) A capacidade de operar em múltiplos locais",
+      "C) Ser restrito a um único tipo de hardware",
+      "D) Utilizar apenas comunicação local"
+    ]
+  },
+  {
+    "numb": 107,
+    "question": "Qual dos seguintes é um modelo de consistência em sistemas distribuídos?",
+    "answer": "A) Consistência eventual",
+    "options": [
+      "A) Consistência eventual",
+      "B) Consistência imediata",
+      "C) Consistência determinística",
+      "D) Consistência temporária"
+    ]
+  },
+  {
+    "numb": 108,
+    "question": "Qual é um desafio na implementação de sistemas de cache distribuído?",
+    "answer": "C) Sincronização de dados entre caches",
+    "options": [
+      "A) Aumento da latência",
+      "B) Aumento da largura de banda",
+      "C) Sincronização de dados entre caches",
+      "D) Redução da segurança"
+    ]
+  },
+  {
+    "numb": 109,
+    "question": "O que é um serviço de mensagem em um sistema distribuído?",
+    "answer": "B) Um mecanismo para enviar dados entre componentes",
+    "options": [
+      "A) Um sistema de armazenamento local",
+      "B) Um mecanismo para enviar dados entre componentes",
+      "C) Um protocolo de segurança",
+      "D) Uma interface de usuário"
+    ]
+  },
+  {
+    "numb": 110,
+    "question": "Qual é uma aplicação típica de sistemas distribuídos?",
+    "answer": "A) Processamento de big data",
+    "options": [
+      "A) Processamento de big data",
+      "B) Edição de texto",
+      "C) Navegação na web",
+      "D) Jogo offline"
+    ]
+  },
+  {
+    "numb": 111,
+    "question": "Qual dos seguintes protocolos é usado para comunicação em tempo real?",
+    "answer": "C) WebSocket",
+    "options": [
+      "A) HTTP",
+      "B) FTP",
+      "C) WebSocket",
+      "D) SMTP"
+    ]
+  },
+  {
+    "numb": 112,
+    "question": "Qual é o papel de um sistema de gerenciamento de configuração em sistemas distribuídos?",
+    "answer": "A) Controlar e automatizar a configuração de recursos",
+    "options": [
+      "A) Controlar e automatizar a configuração de recursos",
+      "B) Armazenar dados em um único local",
+      "C) Executar backups manuais",
+      "D) Fornecer apenas monitoramento"
+    ]
+  },
+  {
+    "numb": 113,
+    "question": "O que é a latência em sistemas distribuídos?",
+    "answer": "B) O tempo que leva para os dados serem transmitidos entre nós",
+    "options": [
+      "A) A quantidade de dados transmitidos",
+      "B) O tempo que leva para os dados serem transmitidos entre nós",
+      "C) A largura de banda disponível",
+      "D) O número de nós ativos"
+    ]
+  },
+  {
+    "numb": 114,
+    "question": "Qual é um benefício de usar microserviços em comparação com arquiteturas monolíticas?",
+    "answer": "D) Flexibilidade na implementação e escalabilidade",
+    "options": [
+      "A) Simplicidade na implementação",
+      "B) Menor uso de recursos",
+      "C) Melhor desempenho em um único serviço",
+      "D) Flexibilidade na implementação e escalabilidade"
+    ]
+  },
+  {
+    "numb": 115,
+    "question": "Qual é a função de um protocolo de descoberta de serviço?",
+    "answer": "C) Localizar serviços disponíveis na rede",
+    "options": [
+      "A) Proteger dados em trânsito",
+      "B) Executar processos em segundo plano",
+      "C) Localizar serviços disponíveis na rede",
+      "D) Armazenar dados temporariamente"
+    ]
+  },
+  {
+    "numb": 116,
+    "question": "O que caracteriza um sistema distribuído de armazenamento?",
+    "answer": "A) Armazenamento de dados em múltiplos locais",
+    "options": [
+      "A) Armazenamento de dados em múltiplos locais",
+      "B) Armazenamento de dados apenas localmente",
+      "C) Armazenamento de dados em um único servidor",
+      "D) Armazenamento de dados em dispositivos móveis"
+    ]
+  },
+  {
+    "numb": 117,
+    "question": "Qual é uma desvantagem de sistemas distribuídos?",
+    "answer": "B) Complexidade na gestão e monitoramento",
+    "options": [
+      "A) Alto desempenho",
+      "B) Complexidade na gestão e monitoramento",
+      "C) Baixo custo",
+      "D) Facilidade de escalabilidade"
+    ]
+  },
+  {
+    "numb": 118,
+    "question": "Qual é a principal função de um proxy em sistemas distribuídos?",
+    "answer": "C) Intermediar comunicações entre clientes e servidores",
+    "options": [
+      "A) Aumentar a largura de banda",
+      "B) Armazenar dados em cache",
+      "C) Intermediar comunicações entre clientes e servidores",
+      "D) Realizar backups de dados"
+    ]
+  },
+  {
+    "numb": 119,
+    "question": "Qual é a importância da monitorização em sistemas distribuídos?",
+    "answer": "A) Identificar e resolver problemas de desempenho",
+    "options": [
+      "A) Identificar e resolver problemas de desempenho",
+      "B) Reduzir o número de servidores",
+      "C) Aumentar o custo de operação",
+      "D) Simplificar a arquitetura"
+    ]
+  },
+  {
+    "numb": 120,
+    "question": "Qual é uma característica dos sistemas de gerenciamento de banco de dados distribuídos?",
+    "answer": "B) Os dados são armazenados em múltiplos locais",
+    "options": [
+      "A) Os dados são armazenados apenas em um único servidor",
+      "B) Os dados são armazenados em múltiplos locais",
+      "C) Os dados não podem ser replicados",
+      "D) Os dados são acessados somente localmente"
+    ]
   }
 ]
+
+
