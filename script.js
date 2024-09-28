@@ -33,7 +33,7 @@ function removeDuplicates(questions) {
 
 // Se o botão de iniciar o quiz for clicado
 start_btn.onclick = () => {
-    questions = shuffleQuestions(removeDuplicates(questions)); // Embaralhar as questões
+    questions = shuffleQuestions(questions); // Embaralhar as questões
     info_box.classList.add("activeInfo"); // Mostrar a caixa de informações
 }
 
@@ -113,9 +113,17 @@ next_btn.onclick = () => {
 // Função para mostrar perguntas e opções
 function showQuetions(index) {
     const que_text = document.querySelector(".que_text");
+    let unidade = 1
+    if(questions[index].numb >= 0 && questions[index].numb <= 60){
+        unidade = 1
+    }else if(questions[index].numb >= 61 && questions[index].numb <= 120){
+        unidade = 2
+    }else if(questions[index].numb >= 121 && questions[index].numb <= 180){
+        unidade = 3
+    }
 
     // Criar uma nova tag span e div para a pergunta e opções, e passar o valor usando o índice do array
-    let que_tag = '<span>' + questions[index].numb + ". " + questions[index].question + '</span>';
+    let que_tag = '<span>'  + '(Unidade ' + unidade + ') ' +questions[index].numb + ". " + questions[index].question + '</span>';
     let option_tag = '<div class="option"><span>' + questions[index].options[0] + '</span></div>'
         + '<div class="option"><span>' + questions[index].options[1] + '</span></div>'
         + '<div class="option"><span>' + questions[index].options[2] + '</span></div>'
