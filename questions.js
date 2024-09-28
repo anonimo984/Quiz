@@ -1318,7 +1318,667 @@ let questions = [
       "C) Os dados não podem ser replicados",
       "D) Os dados são acessados somente localmente"
     ]
-  }
+  },
+     {
+      "numb": 121,
+      "question": "Qual é a principal função do middleware em sistemas distribuídos?",
+      "answer": "B) Criar uma máscara para a heterogeneidade e fornecer um modelo de programação conveniente",
+      "options": [
+        "A) Garantir a segurança das mensagens transmitidas",
+        "B) Criar uma máscara para a heterogeneidade e fornecer um modelo de programação conveniente",
+        "C) Controlar a camada de rede e roteamento de pacotes",
+        "D) Sincronizar os relógios entre processos"
+      ]
+    },
+    {
+      "numb": 122,
+      "question": "O que é latência em uma rede de computadores?",
+      "answer": "B) A diferença de tempo entre o início de uma transmissão e o início da recepção",
+      "options": [
+        "A) O tempo total de transmissão de uma mensagem",
+        "B) A diferença de tempo entre o início de uma transmissão e o início da recepção",
+        "C) A largura de banda disponível na rede",
+        "D) A quantidade de dados transferidos por segundo"
+      ]
+    },
+    {
+      "numb": 123,
+      "question": "Qual das alternativas a seguir descreve uma comunicação síncrona?",
+      "answer": "C) O remetente espera até que o destinatário receba e confirme o recebimento",
+      "options": [
+        "A) O remetente envia a mensagem e continua sua execução",
+        "B) A mensagem é enviada sem confirmação de recebimento",
+        "C) O remetente espera até que o destinatário receba e confirme o recebimento",
+        "D) A comunicação ocorre sem bloqueio"
+      ]
+    },
+    {
+      "numb": 124,
+      "question": "Em uma comunicação assíncrona, o que ocorre com o remetente?",
+      "answer": "B) Ele continua a execução sem esperar a confirmação",
+      "options": [
+        "A) Ele espera a confirmação do destinatário",
+        "B) Ele continua a execução sem esperar a confirmação",
+        "C) Ele bloqueia até que o destinatário receba a mensagem",
+        "D) Ele retransmite a mensagem várias vezes"
+      ]
+    },
+    {
+      "numb": 125,
+      "question": "Qual protocolo é comumente usado para garantir uma comunicação confiável e ordenada?",
+      "answer": "C) TCP",
+      "options": [
+        "A) UDP",
+        "B) FTP",
+        "C) TCP",
+        "D) HTTP"
+      ]
+    },
+    {
+      "numb": 126,
+      "question": "Qual das seguintes opções é um exemplo de uma comunicação não bloqueante?",
+      "answer": "B) O remetente continua a execução após enviar a mensagem",
+      "options": [
+        "A) O remetente aguarda a resposta do destinatário",
+        "B) O remetente continua a execução após enviar a mensagem",
+        "C) O destinatário bloqueia a mensagem até o envio",
+        "D) O destinatário envia uma confirmação antes de receber a mensagem"
+      ]
+    },
+    {
+      "numb": 127,
+      "question": "Qual é o objetivo da mobilidade em sistemas distribuídos?",
+      "answer": "A) Permitir a mudança de posição dos dispositivos na rede",
+      "options": [
+        "A) Permitir a mudança de posição dos dispositivos na rede",
+        "B) Aumentar a largura de banda disponível",
+        "C) Melhorar a confiabilidade dos dados",
+        "D) Reduzir a latência"
+      ]
+    },
+    {
+      "numb": 128,
+      "question": "Quais dispositivos geralmente utilizam comunicação com mobilidade?",
+      "answer": "B) Dispositivos móveis como smartphones",
+      "options": [
+        "A) Servidores de datacenters",
+        "B) Dispositivos móveis como smartphones",
+        "C) Redes cabeadas LAN",
+        "D) Computadores de mesa"
+      ]
+    },
+    {
+      "numb": 129,
+      "question": "O que é escalabilidade em redes distribuídas?",
+      "answer": "A) A capacidade de manter a qualidade de serviço com o aumento de usuários",
+      "options": [
+        "A) A capacidade de manter a qualidade de serviço com o aumento de usuários",
+        "B) A capacidade de aumentar a latência sem afetar o desempenho",
+        "C) A capacidade de reduzir a largura de banda conforme aumenta o número de dispositivos",
+        "D) A capacidade de manter o sistema estável mesmo com falhas no hardware"
+      ]
+    },
+    {
+      "numb": 130,
+      "question": "O que é qualidade de serviço (QoS) em redes distribuídas?",
+      "answer": "B) A capacidade de atender prazos finais ao transmitir fluxos de dados multimídia em tempo real",
+      "options": [
+        "A) Garantir a segurança das mensagens",
+        "B) A capacidade de atender prazos finais ao transmitir fluxos de dados multimídia em tempo real",
+        "C) Aumentar a velocidade de transmissão de arquivos",
+        "D) Melhorar a escalabilidade da rede"
+      ]
+    },
+    {
+      "numb": 131,
+      "question": "Qual das camadas do modelo OSI é responsável pela comunicação entre processos?",
+      "answer": "B) Camada de Transporte",
+      "options": [
+        "A) Camada de Aplicação",
+        "B) Camada de Transporte",
+        "C) Camada de Rede",
+        "D) Camada Física"
+      ]
+    },
+    {
+      "numb": 132,
+      "question": "O que é um socket?",
+      "answer": "B) Um canal de comunicação entre dois processos",
+      "options": [
+        "A) Um protocolo de rede",
+        "B) Um canal de comunicação entre dois processos",
+        "C) Um endereço IP exclusivo",
+        "D) Um tipo de firewall"
+      ]
+    },
+    {
+      "numb": 133,
+      "question": "Qual é a principal função da camada de transporte?",
+      "answer": "B) Garantir a comunicação entre processos",
+      "options": [
+        "A) Gerenciar a entrega de pacotes entre nós adjacentes",
+        "B) Garantir a comunicação entre processos",
+        "C) Controlar a conexão de dados em dispositivos móveis",
+        "D) Gerenciar o roteamento de pacotes na Internet"
+      ]
+    },
+    {
+      "numb": 134,
+      "question": "O que é o modelo cliente/servidor?",
+      "answer": "C) Um modelo em que o cliente solicita serviços de um servidor",
+      "options": [
+        "A) Um modelo em que ambos os lados da comunicação têm o mesmo papel",
+        "B) Um modelo onde o servidor envia solicitações ao cliente",
+        "C) Um modelo em que o cliente solicita serviços de um servidor",
+        "D) Um modelo em que ambos trocam papéis de cliente e servidor"
+      ]
+    },
+    {
+      "numb": 135,
+      "question": "Qual é a principal característica do protocolo TCP?",
+      "answer": "B) Garantia de entrega de pacotes na ordem correta",
+      "options": [
+        "A) Alta velocidade de transmissão de dados",
+        "B) Garantia de entrega de pacotes na ordem correta",
+        "C) Comunicação sem confirmação de entrega",
+        "D) Utilização em comunicação multicast"
+      ]
+    },
+    {
+      "numb": 136,
+      "question": "Qual é a função do protocolo UDP?",
+      "answer": "B) Fornecer comunicação rápida sem conexão",
+      "options": [
+        "A) Garantir a entrega ordenada de pacotes",
+        "B) Fornecer comunicação rápida sem conexão",
+        "C) Manter a conexão entre dispositivos móveis",
+        "D) Gerenciar a troca de mensagens em uma rede local"
+      ]
+    },
+    {
+      "numb": 137,
+      "question": "Qual é o papel dos números de porta na comunicação entre processos?",
+      "answer": "C) Identificar o processo específico dentro de um dispositivo",
+      "options": [
+        "A) Identificar o endereço IP do servidor",
+        "B) Identificar a camada de transporte",
+        "C) Identificar o processo específico dentro de um dispositivo",
+        "D) Identificar o dispositivo na camada de enlace"
+      ]
+    },
+    {
+      "numb": 138,
+      "question": "O que é uma comunicação bloqueante?",
+      "answer": "B) Quando o processo aguarda até a mensagem ser entregue e confirmada",
+      "options": [
+        "A) Quando o processo continua sua execução sem esperar",
+        "B) Quando o processo aguarda até a mensagem ser entregue e confirmada",
+        "C) Quando o destinatário bloqueia a mensagem até o envio",
+        "D) Quando o remetente retransmite a mensagem várias vezes"
+      ]
+    },
+    {
+      "numb": 139,
+      "question": "Qual das alternativas a seguir descreve um sistema distribuído?",
+      "answer": "B) Um sistema em que componentes localizados em diferentes máquinas se comunicam para alcançar um objetivo comum",
+      "options": [
+        "A) Um sistema com todos os componentes localizados em uma única máquina",
+        "B) Um sistema em que componentes localizados em diferentes máquinas se comunicam para alcançar um objetivo comum",
+        "C) Um sistema com um único servidor centralizado",
+        "D) Um sistema em que os dispositivos móveis são os principais componentes"
+      ]
+    },
+    {
+      "numb": 140,
+      "question": "O que é um protocolo de comunicação?",
+      "answer": "A) Um conjunto de regras que define como os dados são transmitidos entre dispositivos",
+      "options": [
+        "A) Um conjunto de regras que define como os dados são transmitidos entre dispositivos",
+        "B) Um software utilizado para gerenciar redes",
+        "C) Um hardware que controla a troca de mensagens",
+        "D) Um tipo de middleware"
+      ]
+    },
+    {
+      "numb": 141,
+      "question": "O que é um cluster de computadores?",
+      "answer": "C) Um grupo de computadores que trabalham juntos para executar uma tarefa",
+      "options": [
+        "A) Um único servidor que executa várias funções",
+        "B) Um grupo de redes conectadas entre si",
+        "C) Um grupo de computadores que trabalham juntos para executar uma tarefa",
+        "D) Uma rede distribuída que utiliza dispositivos móveis"
+      ]
+    },
+    {
+      "numb": 142,
+      "question": "O que é um sistema peer-to-peer?",
+      "answer": "C) Um sistema em que todos os nós têm responsabilidades iguais na rede",
+      "options": [
+        "A) Um sistema centralizado com um servidor principal",
+        "B) Um sistema com vários servidores e poucos clientes",
+        "C) Um sistema em que todos os nós têm responsabilidades iguais na rede",
+        "D) Um sistema com comunicação unidirecional"
+      ]
+    },
+    {
+      "numb": 143,
+      "question": "Qual é o papel de um balanceador de carga?",
+      "answer": "B) Distribuir a carga de trabalho entre vários servidores",
+      "options": [
+        "A) Reduzir o tempo de latência",
+        "B) Distribuir a carga de trabalho entre vários servidores",
+        "C) Garantir a segurança das transmissões de dados",
+        "D) Aumentar a largura de banda disponível na rede"
+      ]
+    },
+    {
+      "numb": 144,
+      "question": "O que é replicação de dados em um sistema distribuído?",
+      "answer": "A) Armazenar cópias dos dados em diferentes locais para melhorar a disponibilidade",
+      "options": [
+        "A) Armazenar cópias dos dados em diferentes locais para melhorar a disponibilidade",
+        "B) Dividir os dados em diferentes servidores para reduzir o tempo de acesso",
+        "C) Armazenar os dados em um único servidor para facilitar o gerenciamento",
+        "D) Criptografar os dados em diferentes servidores"
+      ]
+    },
+    {
+      "numb": 145,
+      "question": "O que é um firewall?",
+      "answer": "C) Um sistema de segurança que monitora e controla o tráfego de rede",
+      "options": [
+        "A) Um dispositivo que acelera o tráfego de dados",
+        "B) Um sistema que armazena e gerencia pacotes de dados",
+        "C) Um sistema de segurança que monitora e controla o tráfego de rede",
+        "D) Um tipo de servidor utilizado para transmissão de dados"
+      ]
+    },
+    {
+      "numb": 146,
+      "question": "O que é a virtualização em um ambiente distribuído?",
+      "answer": "B) A criação de máquinas virtuais que compartilham os recursos físicos de um servidor",
+      "options": [
+        "A) A divisão de um servidor físico em vários servidores físicos",
+        "B) A criação de máquinas virtuais que compartilham os recursos físicos de um servidor",
+        "C) A conexão de redes diferentes para criar uma única rede",
+        "D) A replicação de dados entre servidores diferentes"
+      ]
+    },
+    {
+      "numb": 147,
+      "question": "O que é um servidor de aplicação?",
+      "answer": "B) Um servidor que fornece serviços específicos para aplicativos",
+      "options": [
+        "A) Um servidor que armazena grandes volumes de dados",
+        "B) Um servidor que fornece serviços específicos para aplicativos",
+        "C) Um servidor que executa processos de virtualização",
+        "D) Um servidor que garante a segurança das transações financeiras"
+      ]
+    },
+    {
+      "numb": 148,
+      "question": "Qual das alternativas a seguir é uma característica de uma VPN (Rede Privada Virtual)?",
+      "answer": "C) Proteger a comunicação de dados por meio de criptografia",
+      "options": [
+        "A) Aumentar a largura de banda da rede",
+        "B) Dividir o tráfego de rede em várias rotas",
+        "C) Proteger a comunicação de dados por meio de criptografia",
+        "D) Garantir que todos os dispositivos na rede sejam móveis"
+      ]
+    },
+    {
+      "numb": 149,
+      "question": "Qual é a diferença entre IPv4 e IPv6?",
+      "answer": "A) O IPv6 oferece um espaço de endereçamento maior que o IPv4",
+      "options": [
+        "A) O IPv6 oferece um espaço de endereçamento maior que o IPv4",
+        "B) O IPv6 usa endereços de 32 bits enquanto o IPv4 usa endereços de 128 bits",
+        "C) O IPv6 é mais utilizado em redes locais enquanto o IPv4 é para a Internet",
+        "D) O IPv6 foi criado para substituir o DNS"
+      ]
+    },
+    {
+      "numb": 150,
+      "question": "O que é NAT (Network Address Translation)?",
+      "answer": "B) Um método de reescrever endereços IP enquanto eles passam por um roteador",
+      "options": [
+        "A) Um método de alocação de endereços IP para dispositivos",
+        "B) Um método de reescrever endereços IP enquanto eles passam por um roteador",
+        "C) Um protocolo que garante a entrega de pacotes",
+        "D) Um método para aumentar a largura de banda de uma rede"
+      ]
+    },
+    {
+      "numb": 151,
+      "question": "Qual é a função do protocolo DNS?",
+      "answer": "A) Traduzir nomes de domínio em endereços IP",
+      "options": [
+        "A) Traduzir nomes de domínio em endereços IP",
+        "B) Gerenciar a conexão entre dispositivos móveis",
+        "C) Proteger dados por meio de criptografia",
+        "D) Aumentar a largura de banda disponível na rede"
+      ]
+    },
+    {
+      "numb": 152,
+      "question": "O que significa o termo 'cloud computing'?",
+      "answer": "B) Utilização de recursos computacionais via internet sob demanda",
+      "options": [
+        "A) Execução de processos em servidores físicos locais",
+        "B) Utilização de recursos computacionais via internet sob demanda",
+        "C) Armazenamento de dados em servidores distribuídos fisicamente",
+        "D) Conexão de dispositivos móveis em uma rede local"
+      ]
+    },
+    {
+      "numb": 153,
+      "question": "O que é um Data Center?",
+      "answer": "A) Um local físico onde estão concentrados servidores e outros equipamentos de TI",
+      "options": [
+        "A) Um local físico onde estão concentrados servidores e outros equipamentos de TI",
+        "B) Um servidor virtual onde são hospedados serviços",
+        "C) Um tipo de software que gerencia a rede",
+        "D) Um conjunto de protocolos para comunicação entre redes"
+      ]
+    },
+    {
+      "numb": 154,
+      "question": "O que é um balanceamento de carga em cloud computing?",
+      "answer": "B) Distribuir o tráfego de rede entre servidores na nuvem",
+      "options": [
+        "A) Aumentar a capacidade de armazenamento na nuvem",
+        "B) Distribuir o tráfego de rede entre servidores na nuvem",
+        "C) Gerenciar a segurança dos dados armazenados na nuvem",
+        "D) Garantir a disponibilidade de dados em caso de falha de hardware"
+      ]
+    },
+    {
+      "numb": 155,
+      "question": "Qual das alternativas a seguir é um benefício da computação em nuvem?",
+      "answer": "C) Escalabilidade rápida e sob demanda",
+      "options": [
+        "A) Aumento da latência na rede",
+        "B) Necessidade de mais recursos de hardware local",
+        "C) Escalabilidade rápida e sob demanda",
+        "D) Maior controle sobre o armazenamento físico de dados"
+      ]
+    },
+    {
+      "numb": 156,
+      "question": "O que é uma rede de distribuição de conteúdo (CDN)?",
+      "answer": "A) Uma rede que distribui conteúdo para aumentar a velocidade de entrega de dados",
+      "options": [
+        "A) Uma rede que distribui conteúdo para aumentar a velocidade de entrega de dados",
+        "B) Uma rede de servidores dedicada à segurança de dados",
+        "C) Um conjunto de computadores que compartilham recursos",
+        "D) Uma rede que armazena dados de backup"
+      ]
+    },
+    {
+      "numb": 157,
+      "question": "Qual das seguintes opções é uma característica da escalabilidade horizontal?",
+      "answer": "A) Adicionar mais servidores para aumentar a capacidade",
+      "options": [
+        "A) Adicionar mais servidores para aumentar a capacidade",
+        "B) Aumentar o poder de processamento de um único servidor",
+        "C) Reduzir o número de servidores para economizar energia",
+        "D) Migrar serviços para um data center local"
+      ]
+    },
+    {
+      "numb": 158,
+      "question": "O que é um ataque de negação de serviço (DoS)?",
+      "answer": "B) Um ataque que tenta tornar um serviço indisponível ao sobrecarregá-lo com solicitações",
+      "options": [
+        "A) Um ataque que rouba dados de servidores",
+        "B) Um ataque que tenta tornar um serviço indisponível ao sobrecarregá-lo com solicitações",
+        "C) Um ataque que compromete a integridade dos dados transmitidos",
+        "D) Um ataque que altera a rota de pacotes de rede"
+      ]
+    },
+    {
+      "numb": 159,
+      "question": "Qual é a função de um proxy em uma rede?",
+      "answer": "C) Intermediar as solicitações dos clientes aos servidores",
+      "options": [
+        "A) Controlar o fluxo de pacotes em uma rede",
+        "B) Aumentar a largura de banda disponível para os clientes",
+        "C) Intermediar as solicitações dos clientes aos servidores",
+        "D) Replicar dados em vários servidores"
+      ]
+    },
+    {
+      "numb": 160,
+      "question": "O que significa escalabilidade vertical?",
+      "answer": "A) Aumentar o poder de processamento de um único servidor",
+      "options": [
+        "A) Aumentar o poder de processamento de um único servidor",
+        "B) Adicionar mais servidores para aumentar a capacidade",
+        "C) Distribuir a carga de trabalho entre vários servidores",
+        "D) Reduzir o uso de energia em um data center"
+      ]
+    },
+    {
+      "numb": 161,
+      "question": "O que é uma máquina virtual?",
+      "answer": "C) Um software que emula o comportamento de um hardware físico",
+      "options": [
+        "A) Um servidor dedicado a uma aplicação",
+        "B) Um hardware que executa sistemas operacionais diferentes",
+        "C) Um software que emula o comportamento de um hardware físico",
+        "D) Um servidor que gerencia a troca de dados entre redes"
+      ]
+    },
+    {
+      "numb": 162,
+      "question": "Qual é a função de um hipervisor?",
+      "answer": "B) Gerenciar a execução de múltiplas máquinas virtuais em um único host físico",
+      "options": [
+        "A) Garantir a segurança das máquinas virtuais",
+        "B) Gerenciar a execução de múltiplas máquinas virtuais em um único host físico",
+        "C) Aumentar a largura de banda da rede virtualizada",
+        "D) Realizar backups automáticos das máquinas virtuais"
+      ]
+    },
+    {
+      "numb": 163,
+      "question": "O que é uma rede definida por software (SDN)?",
+      "answer": "C) Uma abordagem que permite o gerenciamento centralizado de uma rede por software",
+      "options": [
+        "A) Um tipo de hardware que acelera o tráfego de rede",
+        "B) Uma rede de máquinas virtuais",
+        "C) Uma abordagem que permite o gerenciamento centralizado de uma rede por software",
+        "D) Um conjunto de protocolos para gerenciar a camada física da rede"
+      ]
+    },
+    {
+      "numb": 164,
+      "question": "Qual é a principal função do protocolo HTTP?",
+      "answer": "A) Transferir hipertextos e arquivos da web entre clientes e servidores",
+      "options": [
+        "A) Transferir hipertextos e arquivos da web entre clientes e servidores",
+        "B) Garantir a comunicação segura entre servidores",
+        "C) Gerenciar a troca de pacotes entre redes",
+        "D) Monitorar o desempenho da rede"
+      ]
+    },
+    {
+      "numb": 165,
+      "question": "O que é um ataque de phishing?",
+      "answer": "B) Um ataque que tenta obter informações sensíveis por meio de e-mails ou sites fraudulentos",
+      "options": [
+        "A) Um ataque que explora vulnerabilidades em redes",
+        "B) Um ataque que tenta obter informações sensíveis por meio de e-mails ou sites fraudulentos",
+        "C) Um ataque que altera os endereços IP de uma rede",
+        "D) Um ataque que impede o acesso a sistemas distribuídos"
+      ]
+    },
+    {
+      "numb": 166,
+      "question": "Qual é a principal função do protocolo HTTPS?",
+      "answer": "C) Garantir a comunicação segura e criptografada entre cliente e servidor",
+      "options": [
+        "A) Melhorar a velocidade de acesso à web",
+        "B) Armazenar arquivos da web em cache para acesso rápido",
+        "C) Garantir a comunicação segura e criptografada entre cliente e servidor",
+        "D) Gerenciar a distribuição de conteúdo em servidores de web"
+      ]
+    },
+    {
+      "numb": 167,
+      "question": "O que significa 'cloud native'?",
+      "answer": "B) Aplicações projetadas para rodar em ambientes de computação em nuvem",
+      "options": [
+        "A) Aplicações que rodam em datacenters locais",
+        "B) Aplicações projetadas para rodar em ambientes de computação em nuvem",
+        "C) Aplicações que utilizam apenas servidores físicos",
+        "D) Aplicações que precisam de dispositivos móveis para funcionar"
+      ]
+    },
+    {
+      "numb": 168,
+      "question": "O que é computação elástica?",
+      "answer": "A) A capacidade de ajustar dinamicamente os recursos de computação conforme necessário",
+      "options": [
+        "A) A capacidade de ajustar dinamicamente os recursos de computação conforme necessário",
+        "B) A capacidade de aumentar permanentemente os recursos da rede",
+        "C) A utilização de máquinas virtuais para processar dados de forma mais rápida",
+        "D) A replicação de dados entre servidores para garantir a alta disponibilidade"
+      ]
+    },
+    {
+      "numb": 169,
+      "question": "O que é uma arquitetura orientada a serviços (SOA)?",
+      "answer": "B) Um estilo de arquitetura que permite a criação de serviços independentes que se comunicam entre si",
+      "options": [
+        "A) Um modelo em que todos os serviços são executados em um único servidor",
+        "B) Um estilo de arquitetura que permite a criação de serviços independentes que se comunicam entre si",
+        "C) Um conjunto de padrões para a transmissão de dados",
+        "D) Uma abordagem que aumenta a segurança dos serviços na web"
+      ]
+    },
+    {
+      "numb": 170,
+      "question": "O que é uma API?",
+      "answer": "A) Um conjunto de regras e definições que permitem a interação entre sistemas",
+      "options": [
+        "A) Um conjunto de regras e definições que permitem a interação entre sistemas",
+        "B) Um protocolo de comunicação de redes locais",
+        "C) Um método de criptografia para proteger dados",
+        "D) Um tipo de máquina virtual"
+      ]
+    },
+    {
+      "numb": 171,
+      "question": "Qual das seguintes opções é uma característica do modelo de microserviços?",
+      "answer": "C) Serviços independentes que se comunicam entre si via APIs",
+      "options": [
+        "A) Serviços monolíticos executados em um único servidor",
+        "B) Serviços executados em máquinas físicas distintas",
+        "C) Serviços independentes que se comunicam entre si via APIs",
+        "D) Serviços que utilizam exclusivamente bancos de dados centralizados"
+      ]
+    },
+    {
+      "numb": 172,
+      "question": "O que é DevOps?",
+      "answer": "A) Um conjunto de práticas que visa integrar equipes de desenvolvimento e operações",
+      "options": [
+        "A) Um conjunto de práticas que visa integrar equipes de desenvolvimento e operações",
+        "B) Um software utilizado para monitorar a performance de redes",
+        "C) Um método de criptografia para proteger dados",
+        "D) Um modelo de segurança para proteger servidores de ataques cibernéticos"
+      ]
+    },
+    {
+      "numb": 173,
+      "question": "Qual é a função do protocolo FTP?",
+      "answer": "C) Transferir arquivos entre clientes e servidores",
+      "options": [
+        "A) Gerenciar a segurança dos dados em trânsito",
+        "B) Reduzir a latência em redes distribuídas",
+        "C) Transferir arquivos entre clientes e servidores",
+        "D) Controlar o fluxo de pacotes em redes peer-to-peer"
+      ]
+    },
+    {
+      "numb": 174,
+      "question": "O que significa o termo 'Big Data'?",
+      "answer": "B) Conjunto de dados que é tão grande e complexo que requer tecnologias especiais para processamento",
+      "options": [
+        "A) Dados armazenados em servidores físicos",
+        "B) Conjunto de dados que é tão grande e complexo que requer tecnologias especiais para processamento",
+        "C) Pequenos conjuntos de dados processados em tempo real",
+        "D) Um conjunto de padrões para a transmissão de dados em redes"
+      ]
+    },
+    {
+      "numb": 175,
+      "question": "Qual é a principal função de um sistema de armazenamento em nuvem?",
+      "answer": "A) Armazenar dados de forma distribuída e acessível pela internet",
+      "options": [
+        "A) Armazenar dados de forma distribuída e acessível pela internet",
+        "B) Armazenar dados em servidores locais para recuperação rápida",
+        "C) Armazenar dados em dispositivos móveis",
+        "D) Armazenar dados criptografados em redes locais"
+      ]
+    },
+    {
+      "numb": 176,
+      "question": "Qual é a principal diferença entre um banco de dados relacional e um banco de dados NoSQL?",
+      "answer": "B) Bancos de dados relacionais utilizam tabelas e NoSQL utiliza estruturas flexíveis",
+      "options": [
+        "A) Bancos de dados relacionais são mais rápidos que NoSQL",
+        "B) Bancos de dados relacionais utilizam tabelas e NoSQL utiliza estruturas flexíveis",
+        "C) NoSQL é mais utilizado para grandes volumes de dados e bancos relacionais são para dados menores",
+        "D) Bancos de dados relacionais são usados apenas em ambientes locais"
+      ]
+    },
+    {
+      "numb": 177,
+      "question": "Qual é a principal característica da Internet das Coisas (IoT)?",
+      "answer": "C) Conexão de dispositivos físicos à internet para coleta e troca de dados",
+      "options": [
+        "A) Aumento da capacidade de armazenamento de dados",
+        "B) Redução do consumo de energia em dispositivos móveis",
+        "C) Conexão de dispositivos físicos à internet para coleta e troca de dados",
+        "D) Utilização de protocolos de comunicação segura"
+      ]
+    },
+    {
+      "numb": 178,
+      "question": "O que é um sistema embarcado?",
+      "answer": "B) Um sistema de computação dedicado a realizar uma função específica dentro de um dispositivo maior",
+      "options": [
+        "A) Um sistema utilizado para gerenciar servidores de dados",
+        "B) Um sistema de computação dedicado a realizar uma função específica dentro de um dispositivo maior",
+        "C) Um conjunto de servidores que compartilham tarefas",
+        "D) Um sistema utilizado para replicar dados em vários servidores"
+      ]
+    },
+    {
+      "numb": 179,
+      "question": "O que é inteligência artificial (IA)?",
+      "answer": "C) A capacidade de sistemas de computação de realizar tarefas que normalmente exigem inteligência humana",
+      "options": [
+        "A) Um método de criptografia para proteger dados",
+        "B) Um conjunto de servidores que realiza operações matemáticas complexas",
+        "C) A capacidade de sistemas de computação de realizar tarefas que normalmente exigem inteligência humana",
+        "D) Um software utilizado para gerenciar bancos de dados"
+      ]
+    },
+    {
+      "numb": 180,
+      "question": "Qual é a função do protocolo SSH?",
+      "answer": "C) Prover comunicação segura e criptografada entre dois dispositivos",
+      "options": [
+        "A) Proteger os dados armazenados em um servidor",
+        "B) Transferir dados entre redes locais",
+        "C) Prover comunicação segura e criptografada entre dois dispositivos",
+        "D) Monitorar a largura de banda de uma rede"
+      ]
+    }
 ]
 
 
