@@ -3,12 +3,22 @@ const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
+const buttons = info_box.querySelectorAll(".buttons .restart");
+const continue_btn_u01 = buttons[1];
+const continue_btn_u02 = buttons[2];
+const continue_btn_u03 = buttons[3];
+const continue_btn_u04 = buttons[4];
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
+const unidade1Questions  = questions.slice(0,60);
+const unidade2Questions  = questions.slice(60,120);
+const unidade3Questions  = questions.slice(120,180);
+const unidade4Questions  = questions.slice(180,240);
+
 
 // Função para embaralhar o array de perguntas
 function shuffleQuestions(array) {
@@ -40,6 +50,47 @@ start_btn.onclick = () => {
 // Se o botão de sair do quiz for clicado
 exit_btn.onclick = () => {
     info_box.classList.remove("activeInfo"); // Ocultar a caixa de informações
+}
+
+continue_btn_u01.onclick = () =>{
+    questions = shuffleQuestions(unidade1Questions);
+    info_box.classList.remove("activeInfo"); // Ocultar a caixa de informações
+    quiz_box.classList.add("activeQuiz"); // Mostrar a caixa de quiz
+    showQuetions(0); // Chamando a função showQuestions
+    queCounter(1); // Passando o parâmetro 1 para queCounter
+    startTimer(60); // Chamando a função startTimer com 60 segundos
+    startTimerLine(0); // Chamando a função startTimerLine
+
+}
+
+continue_btn_u02.onclick = () =>{
+    questions = shuffleQuestions(unidade2Questions);
+    info_box.classList.remove("activeInfo"); // Ocultar a caixa de informações
+    quiz_box.classList.add("activeQuiz"); // Mostrar a caixa de quiz
+    showQuetions(0); // Chamando a função showQuestions
+    queCounter(1); // Passando o parâmetro 1 para queCounter
+    startTimer(60); // Chamando a função startTimer com 60 segundos
+    startTimerLine(0); // Chamando a função startTimerLine
+}
+
+continue_btn_u03.onclick = () =>{
+    questions = shuffleQuestions(unidade3Questions);
+    info_box.classList.remove("activeInfo"); // Ocultar a caixa de informações
+    quiz_box.classList.add("activeQuiz"); // Mostrar a caixa de quiz
+    showQuetions(0); // Chamando a função showQuestions
+    queCounter(1); // Passando o parâmetro 1 para queCounter
+    startTimer(60); // Chamando a função startTimer com 60 segundos
+    startTimerLine(0); // Chamando a função startTimerLine
+}
+
+continue_btn_u04.onclick = () =>{
+    questions = shuffleQuestions(unidade4Questions);
+    info_box.classList.remove("activeInfo"); // Ocultar a caixa de informações
+    quiz_box.classList.add("activeQuiz"); // Mostrar a caixa de quiz
+    showQuetions(0); // Chamando a função showQuestions
+    queCounter(1); // Passando o parâmetro 1 para queCounter
+    startTimer(60); // Chamando a função startTimer com 60 segundos
+    startTimerLine(0); // Chamando a função startTimerLine
 }
 
 // Se o botão de continuar o quiz for clicado
@@ -120,6 +171,8 @@ function showQuetions(index) {
         unidade = 2
     }else if(questions[index].numb >= 121 && questions[index].numb <= 180){
         unidade = 3
+    }else if(questions[index].numb >= 181 && questions[index].numb <= 240){
+        unidade = 4
     }
 
     // Criar uma nova tag span e div para a pergunta e opções, e passar o valor usando o índice do array
