@@ -1978,7 +1978,666 @@ let questions = [
         "C) Prover comunicação segura e criptografada entre dois dispositivos",
         "D) Monitorar a largura de banda de uma rede"
       ]
+    },
+    {
+      "numb": 181,
+      "question": "Qual é a principal dificuldade na sincronização de relógios em sistemas distribuídos?",
+      "answer": "B) Cada computador tem seu próprio relógio, que pode diferir.",
+      "options": [
+        "A) A ausência de relógios.",
+        "B) Cada computador tem seu próprio relógio, que pode diferir.",
+        "C) A falta de fontes de tempo externas.",
+        "D) A presença de variações de frequência nos relógios."
+      ]
+    },
+    {
+      "numb": 182,
+      "question": "O que é o Tempo Universal Coordenado (UTC)?",
+      "answer": "A) Um padrão de tempo baseado em relógios atômicos.",
+      "options": [
+        "A) Um padrão de tempo baseado em relógios atômicos.",
+        "B) Um padrão astronômico usado para medir o tempo.",
+        "C) Uma convenção de sincronização entre redes locais.",
+        "D) Um sistema de tempo exclusivo para sistemas distribuídos."
+      ]
+    },
+    {
+      "numb": 183,
+      "question": "O que é a 'Relação de Precedência' em sistemas distribuídos?",
+      "answer": "C) Uma ordenação parcial dos eventos em sistemas distribuídos.",
+      "options": [
+        "A) Uma relação que sincroniza todos os processos com relógios externos.",
+        "B) Uma ordenação total dos eventos em todos os processos.",
+        "C) Uma ordenação parcial dos eventos em sistemas distribuídos.",
+        "D) Um algoritmo que detecta deadlock em sistemas distribuídos."
+      ]
+    },
+    {
+      "numb": 184,
+      "question": "Qual algoritmo se baseia no envio de uma mensagem 'Request' com um timestamp para os demais processos em uma rede?",
+      "answer": "C) Algoritmo usando multicast e relógios lógicos.",
+      "options": [
+        "A) Algoritmo de Cristian.",
+        "B) Algoritmo de Berkeley.",
+        "C) Algoritmo usando multicast e relógios lógicos.",
+        "D) Algoritmo baseado em anel."
+      ]
+    },
+    {
+      "numb": 185,
+      "question": "Qual é a principal função do Algoritmo de Cristian em sistemas assíncronos?",
+      "answer": "B) Sincronizar computadores externamente com uma fonte UTC.",
+      "options": [
+        "A) Sincronizar processos em anéis lógicos.",
+        "B) Sincronizar computadores externamente com uma fonte UTC.",
+        "C) Detectar deadlocks em sistemas distribuídos.",
+        "D) Manter a ordem de eventos sem relógios físicos."
+      ]
+    },
+    {
+      "numb": 186,
+      "question": "Qual é uma desvantagem do Algoritmo de Cristian?",
+      "answer": "C) Só obtém sincronização se o tempo de viagem da mensagem for curto.",
+      "options": [
+        "A) Necessidade de múltiplos servidores de tempo.",
+        "B) Não funciona em sistemas com relógios atômicos.",
+        "C) Só obtém sincronização se o tempo de viagem da mensagem for curto.",
+        "D) Requer clocks físicos sincronizados."
+      ]
+    },
+    {
+      "numb": 187,
+      "question": "O que ocorre no algoritmo de eleição baseados em anel?",
+      "answer": "C) A mensagem de eleição circula em sentido horário pelo anel lógico.",
+      "options": [
+        "A) Um processo tenta assumir o controle enviando uma mensagem para todos.",
+        "B) O processo com maior identificador é escolhido automaticamente.",
+        "C) A mensagem de eleição circula em sentido horário pelo anel lógico.",
+        "D) Todos os processos podem iniciar uma eleição simultaneamente."
+      ]
+    },
+    {
+      "numb": 188,
+      "question": "Quais são as condições necessárias para ocorrer um deadlock em sistemas distribuídos?",
+      "answer": "A) Exclusão mútua, posse e espera, não-preempção, e espera circular.",
+      "options": [
+        "A) Exclusão mútua, posse e espera, não-preempção, e espera circular.",
+        "B) Relógios não sincronizados, falha de comunicação, e sincronização incompleta.",
+        "C) Rede lenta, memória insuficiente, e processos paralelos.",
+        "D) Sincronização externa inadequada e falta de clocks físicos."
+      ]
+    },
+    {
+      "numb": 189,
+      "question": "O que é a técnica de prevenção de deadlock 'Wait-Die'?",
+      "answer": "B) Um algoritmo não-preemptivo onde o processo com menor timestamp espera.",
+      "options": [
+        "A) Um algoritmo que preemptivamente mata processos com menor prioridade.",
+        "B) Um algoritmo não-preemptivo onde o processo com menor timestamp espera.",
+        "C) Um algoritmo que detecta deadlocks ao verificar ciclos em grafos.",
+        "D) Um algoritmo que interrompe processos mais novos para evitar deadlocks."
+      ]
+    },
+    {
+      "numb": 190,
+      "question": "Qual é o problema com a sincronização absoluta de relógios em sistemas distribuídos?",
+      "answer": "B) Não há como sincronizar perfeitamente todos os processos.",
+      "options": [
+        "A) Todos os processos precisam do mesmo relógio físico.",
+        "B) Não há como sincronizar perfeitamente todos os processos.",
+        "C) A ordem dos eventos não pode ser determinada.",
+        "D) É necessário o uso de relógios atômicos."
+      ]
+    },
+    {
+      "numb": 191,
+      "question": "O que acontece quando dois processos executam um evento ao mesmo tempo, sem uma relação de precedência?",
+      "answer": "B) Eles são considerados concorrentes.",
+      "options": [
+        "A) Eles são considerados em deadlock.",
+        "B) Eles são considerados concorrentes.",
+        "C) Eles falham.",
+        "D) Um dos processos deve aguardar."
+      ]
+    },
+    {
+      "numb": 192,
+      "question": "Como o Algoritmo de Berkeley lida com a sincronização do tempo?",
+      "answer": "B) O servidor mestre coleta os tempos locais, faz uma média e ajusta os relógios.",
+      "options": [
+        "A) O servidor passivo ajusta o tempo de cada máquina individualmente.",
+        "B) O servidor mestre coleta os tempos locais, faz uma média e ajusta os relógios.",
+        "C) Todos os processos se comunicam entre si para determinar a hora correta.",
+        "D) O cliente calcula seu tempo a partir de sinais de UTC."
+      ]
+    },
+    {
+      "numb": 193,
+      "question": "Qual a função do 'clock lógico' em sistemas distribuídos?",
+      "answer": "B) Atribuir uma ordem relativa de eventos sem a necessidade de sincronização física.",
+      "options": [
+        "A) Sincronizar eventos em sistemas com clocks físicos.",
+        "B) Atribuir uma ordem relativa de eventos sem a necessidade de sincronização física.",
+        "C) Detectar falhas de processo.",
+        "D) Eliminar deadlocks em sistemas concorrentes."
+      ]
+    },
+    {
+      "numb": 194,
+      "question": "No Algoritmo de Exclusão Mútua baseado em anel, como a exclusão mútua é obtida?",
+      "answer": "B) Pela obtenção de um token que é passado entre os processos.",
+      "options": [
+        "A) Através da criação de clocks físicos sincronizados.",
+        "B) Pela obtenção de um token que é passado entre os processos.",
+        "C) Pela comunicação entre servidores dedicados.",
+        "D) Através de eventos de sincronização global."
+      ]
+    },
+    {
+      "numb": 195,
+      "question": "Qual das seguintes afirmações sobre o Algoritmo de Eleição Valentão é verdadeira?",
+      "answer": "B) Ele assume que o sistema é síncrono e utiliza tempo limite para detectar falhas.",
+      "options": [
+        "A) Ele requer que todos os processos tenham o mesmo identificador.",
+        "B) Ele assume que o sistema é síncrono e utiliza tempo limite para detectar falhas.",
+        "C) Ele organiza processos em um anel lógico para determinar o líder.",
+        "D) Ele escolhe o processo com o menor identificador como coordenador."
+      ]
+    },
+    {
+      "numb": 196,
+      "question": "Qual é a função de um 'timestamp' em um sistema distribuído?",
+      "answer": "C) Definir uma ordem de execução dos eventos.",
+      "options": [
+        "A) Sincronizar processos com um relógio físico externo.",
+        "B) Identificar a prioridade de execução dos processos.",
+        "C) Definir uma ordem de execução dos eventos.",
+        "D) Identificar processos em uma rede distribuída."
+      ]
+    },
+    {
+      "numb": 197,
+      "question": "O Algoritmo de Detecção de Deadlocks examina o estado do sistema em busca de:",
+      "answer": "B) Ciclos no grafo de alocação de recursos.",
+      "options": [
+        "A) Recursos não alocados.",
+        "B) Ciclos no grafo de alocação de recursos.",
+        "C) Processos com tempos de execução mais longos.",
+        "D) Mensagens pendentes entre processos."
+      ]
+    },
+    {
+      "numb": 198,
+      "question": "No Algoritmo de Ricart-Agrawala, como é garantida a exclusão mútua?",
+      "answer": "A) Os processos enviam pedidos a todos os outros e aguardam aprovação.",
+      "options": [
+        "A) Os processos enviam pedidos a todos os outros e aguardam aprovação.",
+        "B) Um processo centralizado controla o acesso.",
+        "C) Um anel lógico é utilizado para a passagem de um token.",
+        "D) Cada processo aguarda um timestamp global."
+      ]
+    },
+    {
+      "numb": 199,
+      "question": "Qual dos seguintes algoritmos usa uma abordagem descentralizada para exclusão mútua?",
+      "answer": "A) Algoritmo de Ricart-Agrawala.",
+      "options": [
+        "A) Algoritmo de Ricart-Agrawala.",
+        "B) Algoritmo de Cristian.",
+        "C) Algoritmo de Eleição Valentão.",
+        "D) Algoritmo de Detecção de Deadlock."
+      ]
+    },
+    {
+      "numb": 200,
+      "question": "Qual é o papel do grafo de dependência em um algoritmo de deadlock?",
+      "answer": "C) Representar a relação entre processos e os recursos que estão aguardando.",
+      "options": [
+        "A) Definir a ordem dos eventos.",
+        "B) Sincronizar o tempo de processos.",
+        "C) Representar a relação entre processos e os recursos que estão aguardando.",
+        "D) Detectar mensagens perdidas em uma rede."
+      ]
+    },
+    {
+      "numb": 201,
+      "question": "O que caracteriza um sistema distribuído síncrono?",
+      "answer": "A) Há limites conhecidos para o tempo de processamento e de comunicação.",
+      "options": [
+        "A) Há limites conhecidos para o tempo de processamento e de comunicação.",
+        "B) O tempo de comunicação entre processos é imprevisível.",
+        "C) Todos os processos compartilham o mesmo relógio físico.",
+        "D) Os processos podem falhar sem detecção."
+      ]
+    },
+    {
+      "numb": 202,
+      "question": "Qual é o principal objetivo dos algoritmos de eleição em sistemas distribuídos?",
+      "answer": "B) Eleger um coordenador para a gestão de recursos ou tarefas.",
+      "options": [
+        "A) Detectar falhas de processo.",
+        "B) Eleger um coordenador para a gestão de recursos ou tarefas.",
+        "C) Sincronizar relógios físicos.",
+        "D) Coordenar a transmissão de mensagens em uma rede."
+      ]
+    },
+    {
+      "numb": 203,
+      "question": "Em sistemas distribuídos, o que significa o termo 'coerência de cache'?",
+      "answer": "C) Garantir que todos os processos vejam o mesmo valor para uma variável compartilhada.",
+      "options": [
+        "A) Garantir que o cache nunca seja esvaziado.",
+        "B) Sincronizar relógios físicos em todos os processos.",
+        "C) Garantir que todos os processos vejam o mesmo valor para uma variável compartilhada.",
+        "D) Sincronizar o tempo entre todos os caches."
+      ]
+    },
+    {
+      "numb": 204,
+      "question": "Qual é a principal função dos algoritmos de exclusão mútua distribuída?",
+      "answer": "A) Garantir que apenas um processo possa acessar um recurso crítico por vez.",
+      "options": [
+        "A) Garantir que apenas um processo possa acessar um recurso crítico por vez.",
+        "B) Sincronizar relógios físicos entre processos.",
+        "C) Detectar falhas de comunicação entre processos.",
+        "D) Gerenciar a distribuição de tokens entre processos."
+      ]
+    },
+    {
+      "numb": 205,
+      "question": "O que é um sistema de arquivos distribuído (DFS)?",
+      "answer": "B) Um sistema onde arquivos são armazenados em múltiplos servidores, mas acessados como se estivessem em um único local.",
+      "options": [
+        "A) Um sistema onde os arquivos são armazenados em discos locais.",
+        "B) Um sistema onde arquivos são armazenados em múltiplos servidores, mas acessados como se estivessem em um único local.",
+        "C) Um sistema onde os arquivos são automaticamente replicados em todos os processos.",
+        "D) Um sistema de armazenamento dedicado a backups."
+      ]
+    },
+    {
+      "numb": 206,
+      "question": "No Algoritmo de Eleição Valentão, o que um processo faz quando recebe uma mensagem de eleição de um processo com um identificador maior?",
+      "answer": "C) Ele desiste da eleição e aguarda os resultados.",
+      "options": [
+        "A) Ele continua com sua eleição.",
+        "B) Ele tenta derrotar o processo com o identificador maior.",
+        "C) Ele desiste da eleição e aguarda os resultados.",
+        "D) Ele reinicia o processo de eleição."
+      ]
+    },
+    {
+      "numb": 207,
+      "question": "Qual é a principal função do protocolo NTP (Network Time Protocol)?",
+      "answer": "A) Sincronizar relógios entre computadores em uma rede.",
+      "options": [
+        "A) Sincronizar relógios entre computadores em uma rede.",
+        "B) Detectar falhas de processo.",
+        "C) Gerenciar a troca de mensagens entre processos.",
+        "D) Garantir a exclusão mútua entre processos."
+      ]
+    },
+    {
+      "numb": 208,
+      "question": "O que caracteriza um sistema distribuído assíncrono?",
+      "answer": "B) Não há garantias sobre o tempo de comunicação ou processamento.",
+      "options": [
+        "A) Há um limite superior conhecido para o tempo de comunicação.",
+        "B) Não há garantias sobre o tempo de comunicação ou processamento.",
+        "C) Todos os processos compartilham um relógio global.",
+        "D) O sistema é imune a falhas de comunicação."
+      ]
+    },
+    {
+      "numb": 209,
+      "question": "Qual é o principal desafio na detecção de falhas em sistemas distribuídos?",
+      "answer": "B) A incerteza causada pela latência da rede.",
+      "options": [
+        "A) A falta de um relógio físico global.",
+        "B) A incerteza causada pela latência da rede.",
+        "C) A necessidade de sincronizar os processos periodicamente.",
+        "D) A dependência de tokens para a comunicação."
+      ]
+    },
+    {
+      "numb": 210,
+      "question": "Qual é a finalidade de um 'token' em alguns algoritmos de exclusão mútua?",
+      "answer": "A) Controlar o acesso a recursos críticos.",
+      "options": [
+        "A) Controlar o acesso a recursos críticos.",
+        "B) Detectar falhas de processo.",
+        "C) Sincronizar relógios físicos.",
+        "D) Gerenciar o envio de mensagens entre processos."
+      ]
+    },
+    {
+      "numb": 211,
+      "question": "No algoritmo de exclusão mútua baseado em token, o que acontece se o token for perdido?",
+      "answer": "B) O sistema deve gerar um novo token ou entrar em estado de falha.",
+      "options": [
+        "A) Nada, o token é recuperado automaticamente.",
+        "B) O sistema deve gerar um novo token ou entrar em estado de falha.",
+        "C) O processo que detinha o token é reiniciado.",
+        "D) Todos os processos devem ser sincronizados novamente."
+      ]
+    },
+    {
+      "numb": 212,
+      "question": "O que é a técnica de checkpoint em sistemas distribuídos?",
+      "answer": "C) Salvar o estado de um processo para que ele possa ser reiniciado após uma falha.",
+      "options": [
+        "A) Monitorar o tempo de execução de processos.",
+        "B) Sincronizar processos periodicamente.",
+        "C) Salvar o estado de um processo para que ele possa ser reiniciado após uma falha.",
+        "D) Sincronizar o tempo entre processos em uma rede."
+      ]
+    },
+    {
+      "numb": 213,
+      "question": "Como o protocolo de confirmação em duas fases (2PC) garante a atomicidade em transações distribuídas?",
+      "answer": "B) Ele exige a confirmação de todos os participantes antes de concluir a transação.",
+      "options": [
+        "A) Ele executa uma votação majoritária.",
+        "B) Ele exige a confirmação de todos os participantes antes de concluir a transação.",
+        "C) Ele envia o resultado da transação para um processo centralizado.",
+        "D) Ele usa um token para controlar o acesso aos recursos."
+      ]
+    },
+    {
+      "numb": 214,
+      "question": "O que acontece se houver uma falha de comunicação durante o protocolo 2PC?",
+      "answer": "C) O sistema pode ficar em estado de espera até a falha ser resolvida.",
+      "options": [
+        "A) A transação é automaticamente cancelada.",
+        "B) A transação é automaticamente confirmada.",
+        "C) O sistema pode ficar em estado de espera até a falha ser resolvida.",
+        "D) O sistema inicia um novo protocolo de votação."
+      ]
+    },
+    {
+      "numb": 215,
+      "question": "No Algoritmo de Eleição Valentão, o que acontece se o processo com o maior identificador falhar?",
+      "answer": "B) Uma nova eleição é iniciada pelos processos restantes.",
+      "options": [
+        "A) A eleição é automaticamente cancelada.",
+        "B) Uma nova eleição é iniciada pelos processos restantes.",
+        "C) O processo com o menor identificador assume a liderança.",
+        "D) Os processos restantes aguardam até o processo falho ser restaurado."
+      ]
+    },
+    {
+      "numb": 216,
+      "question": "Qual é a principal desvantagem de sistemas distribuídos totalmente assíncronos?",
+      "answer": "A) Não é possível garantir a detecção de falhas de forma confiável.",
+      "options": [
+        "A) Não é possível garantir a detecção de falhas de forma confiável.",
+        "B) O tempo de comunicação é limitado.",
+        "C) Os processos compartilham o mesmo relógio físico.",
+        "D) A rede pode falhar em casos de alta latência."
+      ]
+    },
+    {
+      "numb": 217,
+      "question": "O que é uma transação distribuída?",
+      "answer": "A) Uma transação que envolve múltiplos nós ou processos em um sistema distribuído.",
+      "options": [
+        "A) Uma transação que envolve múltiplos nós ou processos em um sistema distribuído.",
+        "B) Um processo de replicação de dados entre servidores.",
+        "C) Um método de sincronização de tempo entre processos.",
+        "D) Um protocolo para gerenciar o tempo de execução dos processos."
+      ]
+    },
+    {
+      "numb": 218,
+      "question": "Qual é o papel do protocolo de consenso em sistemas distribuídos?",
+      "answer": "C) Garantir que todos os processos concordem sobre um valor ou estado.",
+      "options": [
+        "A) Sincronizar o tempo entre processos.",
+        "B) Detectar falhas de processo.",
+        "C) Garantir que todos os processos concordem sobre um valor ou estado.",
+        "D) Gerenciar a exclusão mútua entre processos."
+      ]
+    },
+    {
+      "numb": 219,
+      "question": "O que é um sistema de filas distribuídas?",
+      "answer": "A) Um sistema onde mensagens são armazenadas e processadas por múltiplos consumidores.",
+      "options": [
+        "A) Um sistema onde mensagens são armazenadas e processadas por múltiplos consumidores.",
+        "B) Um sistema onde todos os processos têm acesso direto ao banco de dados.",
+        "C) Um sistema onde processos compartilham uma única fila de mensagens.",
+        "D) Um sistema que prioriza o processamento em tempo real."
+      ]
+    },
+    {
+      "numb": 220,
+      "question": "Qual é a principal função da replicação em sistemas distribuídos?",
+      "answer": "B) Aumentar a disponibilidade e a tolerância a falhas.",
+      "options": [
+        "A) Melhorar a velocidade de processamento de dados.",
+        "B) Aumentar a disponibilidade e a tolerância a falhas.",
+        "C) Reduzir a latência de comunicação.",
+        "D) Sincronizar relógios entre processos."
+      ]
+    },
+    {
+      "numb": 221,
+      "question": "No contexto de sistemas distribuídos, o que é 'particionamento'?",
+      "answer": "C) Dividir um conjunto de dados em partes menores que são distribuídas entre diferentes nós.",
+      "options": [
+        "A) A replicação de dados em vários nós.",
+        "B) A exclusão mútua entre processos.",
+        "C) Dividir um conjunto de dados em partes menores que são distribuídas entre diferentes nós.",
+        "D) O armazenamento de dados em um único servidor."
+      ]
+    },
+    {
+      "numb": 222,
+      "question": "Qual é o impacto da latência em sistemas distribuídos?",
+      "answer": "A) Pode afetar a rapidez de comunicação entre processos.",
+      "options": [
+        "A) Pode afetar a rapidez de comunicação entre processos.",
+        "B) Não tem impacto na execução de processos.",
+        "C) Aumenta a eficiência do sistema.",
+        "D) Melhora a sincronização de tempo."
+      ]
+    },
+    {
+      "numb": 223,
+      "question": "O que é um 'banco de dados distribuído'?",
+      "answer": "B) Um banco de dados que é armazenado em múltiplos locais físicos, mas acessado como se fosse um único sistema.",
+      "options": [
+        "A) Um banco de dados que é acessado por um único servidor.",
+        "B) Um banco de dados que é armazenado em múltiplos locais físicos, mas acessado como se fosse um único sistema.",
+        "C) Um sistema de arquivos que não suporta replicação.",
+        "D) Um banco de dados que utiliza apenas armazenamento local."
+      ]
+    },
+    {
+      "numb": 224,
+      "question": "Qual é a principal vantagem da arquitetura de microserviços em sistemas distribuídos?",
+      "answer": "C) Permite que serviços independentes sejam desenvolvidos e escalados separadamente.",
+      "options": [
+        "A) Aumenta a complexidade da comunicação.",
+        "B) Impede a atualização de serviços sem downtime.",
+        "C) Permite que serviços independentes sejam desenvolvidos e escalados separadamente.",
+        "D) Fornece um único ponto de falha."
+      ]
+    },
+    {
+      "numb": 225,
+      "question": "Qual é a função do protocolo Raft?",
+      "answer": "A) Garantir a consistência em sistemas distribuídos de replicação.",
+      "options": [
+        "A) Garantir a consistência em sistemas distribuídos de replicação.",
+        "B) Sincronizar relógios entre todos os nós.",
+        "C) Detectar e corrigir falhas de hardware.",
+        "D) Controlar o acesso a recursos críticos."
+      ]
+    },
+    {
+      "numb": 226,
+      "question": "O que é 'consistência eventual' em sistemas distribuídos?",
+      "answer": "B) Todos os nós eventualmente convergem para o mesmo estado, mas não há garantia de tempo.",
+      "options": [
+        "A) Todos os nós têm o mesmo estado em todos os momentos.",
+        "B) Todos os nós eventualmente convergem para o mesmo estado, mas não há garantia de tempo.",
+        "C) O sistema nunca permite que os dados sejam inconsistentes.",
+        "D) Os dados são sincronizados instantaneamente entre todos os nós."
+      ]
+    },
+    {
+      "numb": 227,
+      "question": "Qual é a diferença entre 'replicação síncrona' e 'replicação assíncrona'?",
+      "answer": "A) Na replicação síncrona, as mudanças são confirmadas em todos os nós antes de serem aplicadas.",
+      "options": [
+        "A) Na replicação síncrona, as mudanças são confirmadas em todos os nós antes de serem aplicadas.",
+        "B) Na replicação assíncrona, todos os nós devem estar ativos.",
+        "C) A replicação assíncrona é mais lenta que a síncrona.",
+        "D) Não há diferença entre os dois métodos."
+      ]
+    },
+    {
+      "numb": 228,
+      "question": "O que é um 'algoritmo de consenso'?",
+      "answer": "C) Um algoritmo que permite que múltiplos processos concordem sobre um valor ou estado.",
+      "options": [
+        "A) Um método de replicação de dados.",
+        "B) Um sistema de filas de mensagens.",
+        "C) Um algoritmo que permite que múltiplos processos concordem sobre um valor ou estado.",
+        "D) Um protocolo de comunicação entre processos."
+      ]
+    },
+    {
+      "numb": 229,
+      "question": "Em que consiste o conceito de 'escala horizontal'?",
+      "answer": "B) Adicionar mais máquinas ou nós ao sistema para aumentar a capacidade.",
+      "options": [
+        "A) Melhorar a performance de uma única máquina.",
+        "B) Adicionar mais máquinas ou nós ao sistema para aumentar a capacidade.",
+        "C) Reduzir a quantidade de dados processados.",
+        "D) Consolidar todos os serviços em um único servidor."
+      ]
+    },
+    {
+      "numb": 230,
+      "question": "Qual é o principal problema que a 'tolerância a falhas' busca resolver em sistemas distribuídos?",
+      "answer": "A) Garantir que o sistema continue funcionando mesmo se um ou mais componentes falharem.",
+      "options": [
+        "A) Garantir que o sistema continue funcionando mesmo se um ou mais componentes falharem.",
+        "B) Melhorar a velocidade de resposta do sistema.",
+        "C) Reduzir a complexidade do sistema.",
+        "D) Evitar a necessidade de replicação de dados."
+      ]
+    },
+    {
+      "numb": 231,
+      "question": "O que caracteriza um sistema de 'armazenamento distribuído'?",
+      "answer": "C) Os dados são armazenados em múltiplos locais físicos, mas acessados como se fossem um único sistema.",
+      "options": [
+        "A) Os dados são armazenados em um único local.",
+        "B) O acesso aos dados é controlado por um único servidor.",
+        "C) Os dados são armazenados em múltiplos locais físicos, mas acessados como se fossem um único sistema.",
+        "D) O sistema não permite replicação de dados."
+      ]
+    },
+    {
+      "numb": 232,
+      "question": "O que é 'latência' em sistemas distribuídos?",
+      "answer": "A) O tempo que leva para uma mensagem viajar de um nó a outro.",
+      "options": [
+        "A) O tempo que leva para uma mensagem viajar de um nó a outro.",
+        "B) A quantidade de dados que um sistema pode processar.",
+        "C) O número de nós em um sistema.",
+        "D) A capacidade de armazenamento de dados de um sistema."
+      ]
+    },
+    {
+      "numb": 233,
+      "question": "Qual é a função do protocolo de 'votação' em sistemas distribuídos?",
+      "answer": "B) Determinar um líder ou coordenador entre os nós.",
+      "options": [
+        "A) Sincronizar relógios entre processos.",
+        "B) Determinar um líder ou coordenador entre os nós.",
+        "C) Replicar dados em tempo real.",
+        "D) Gerenciar filas de mensagens."
+      ]
+    },
+    {
+      "numb": 234,
+      "question": "Qual é o propósito do 'load balancing' em sistemas distribuídos?",
+      "answer": "C) Distribuir a carga de trabalho de maneira eficiente entre múltiplos nós.",
+      "options": [
+        "A) Consolidar todos os serviços em um único servidor.",
+        "B) Aumentar o tempo de resposta do sistema.",
+        "C) Distribuir a carga de trabalho de maneira eficiente entre múltiplos nós.",
+        "D) Reduzir a complexidade do sistema."
+      ]
+    },
+    {
+      "numb": 235,
+      "question": "O que significa 'falta de consistência' em sistemas distribuídos?",
+      "answer": "B) Dados diferentes em nós diferentes em um dado momento.",
+      "options": [
+        "A) Todos os nós têm os mesmos dados.",
+        "B) Dados diferentes em nós diferentes em um dado momento.",
+        "C) Os dados são replicados automaticamente.",
+        "D) A comunicação entre nós é sempre instantânea."
+      ]
+    },
+    {
+      "numb": 236,
+      "question": "Qual é a principal função do protocolo 'Paxos'?",
+      "answer": "C) Garantir que múltiplos nós concordem sobre um valor, mesmo em presença de falhas.",
+      "options": [
+        "A) Sincronizar o tempo entre todos os processos.",
+        "B) Detectar falhas de comunicação.",
+        "C) Garantir que múltiplos nós concordem sobre um valor, mesmo em presença de falhas.",
+        "D) Controlar o acesso a recursos críticos."
+      ]
+    },
+    {
+      "numb": 237,
+      "question": "O que é 'failover' em sistemas distribuídos?",
+      "answer": "A) Um processo que permite a troca automática de um componente falho por um backup.",
+      "options": [
+        "A) Um processo que permite a troca automática de um componente falho por um backup.",
+        "B) Um método de replicação de dados.",
+        "C) Um protocolo de comunicação entre nós.",
+        "D) Um sistema de filas de mensagens."
+      ]
+    },
+    {
+      "numb": 238,
+      "question": "Qual é a finalidade do 'replicador de dados' em sistemas distribuídos?",
+      "answer": "B) Criar cópias de dados em múltiplos nós para garantir a disponibilidade.",
+      "options": [
+        "A) Armazenar dados em um único nó.",
+        "B) Criar cópias de dados em múltiplos nós para garantir a disponibilidade.",
+        "C) Aumentar a velocidade de processamento de dados.",
+        "D) Reduzir a latência de comunicação entre nós."
+      ]
+    },
+    {
+      "numb": 239,
+      "question": "O que é 'tolerância a falhas' em sistemas distribuídos?",
+      "answer": "C) A capacidade de um sistema continuar operando mesmo quando um ou mais componentes falham.",
+      "options": [
+        "A) A capacidade de melhorar o desempenho do sistema.",
+        "B) A habilidade de reiniciar processos após uma falha.",
+        "C) A capacidade de um sistema continuar operando mesmo quando um ou mais componentes falham.",
+        "D) A habilidade de replicar dados em todos os nós."
+      ]
+    },
+    {
+      "numb": 240,
+      "question": "Qual é o impacto da 'carga de trabalho' em sistemas distribuídos?",
+      "answer": "B) Pode afetar o desempenho e a eficiência do sistema.",
+      "options": [
+        "A) Não tem impacto no sistema.",
+        "B) Pode afetar o desempenho e a eficiência do sistema.",
+        "C) Aumenta a velocidade de processamento.",
+        "D) Reduz a complexidade da arquitetura."
+      ]
     }
 ]
-
 
